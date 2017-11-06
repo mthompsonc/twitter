@@ -1,0 +1,152 @@
+* {
+  font-family: "courier new";
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/background.jpg);
+}
+
+nav{
+  color: #FFFFFF;
+  background-color: #61D3F0;
+  height: 3em;
+  width: auto;
+  text-align: center;
+  font-size: 1.6em;
+  line-height: 2;
+  box-shadow: 0px 1px 14px 0px grey;
+}
+
+.title{
+  margin: 0;
+}
+
+#biotext{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 100px 30px 115px;
+}
+
+#box1{
+  height: 190px;
+  width: 500px;
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  margin-right: 15px;
+  border-radius: 2px;
+  box-shadow:0px 0px 9px 0px grey;
+  padding: 30px 20px 30px 20px;
+}
+
+h3{
+  margin-bottom: 15px;
+}
+p{
+  margin-bottom: 10px;
+}
+
+#lineb1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 1px;
+  border: none;
+  background-color: #dddddd;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 2.5;
+  display:block;
+  color: inherit;
+}
+
+#biography{
+  width: 480px;
+}
+
+#code{
+  font-weight: bold;
+  color: #2444c9;
+}
+#box2{
+  min-height: 180px;
+  width: 500px;
+  vertical-align: bottom;
+  display: inline-flex;
+  background-color: #FFFFFF;
+  box-shadow:0px 0px 9px 0px grey;
+  padding: 20px 15px 20px 13px;
+}
+
+textarea{
+  width: 475px;
+  min-height: 50px;
+  margin: auto;
+  overflow:hidden;
+  resize: none;
+  border: none;
+  padding: 2px;
+  line-height: 17px;
+  font-size: 15px;
+}
+
+textarea:focus{
+outline:none;
+}
+
+.lineb2{
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color:#44c3b0;
+  border: none;
+}
+
+#btn{
+  margin-bottom: 10px;
+  vertical-align: bottom;
+  height: 40px;
+  width: 115px;
+  color: #8e8e8e;
+  text-decoration: none;
+  box-shadow:0px 0px 9px 0px grey;
+  background-color:#dadada;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#btn:focus{
+    outline:none;
+    background-color:#6DD2F8;
+    color: #FFFF;
+}
+
+#counter{
+  height: 40px;
+  width: 40px;
+  outline: 2px solid red;
+  display: inline-block;
+  margin-left: 285px;
+  margin-bottom: 5px;
+}
+
+#comment{
+  margin: 20px 120px 52px 115px;
+  align-items: center;
+}
+
+.sendTweet{
+  padding: 30px;
+  height: 30px;
+  line-height: 0;
+  background-color: #FFFFFF;
+}
